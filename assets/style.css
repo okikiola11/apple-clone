@@ -143,18 +143,25 @@ h6 {
 }
 
 .footer__store {
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   color: #6e6e6e;
 }
 
 .footer__store a {
   color: #08c;
   text-decoration: none;
+  font-size: 1.15rem;
 }
 
 .footer__list ul {
   margin: 0;
   padding: 0;
+  font-size: 1.1rem;
+}
+
+.footer__list-ul {
+  border-left: 1px solid #08c;
+  padding-left: 5px;
 }
 
 .footer__list ul li {
