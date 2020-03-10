@@ -4,7 +4,8 @@
 
 ![screenshot](assets/images/screenshot.PNG)
 
-This project consists of building a webpage using images as a background and adding gradients to elements. The goal is to make a clone of old an old version of the Apple website webpage.
+Working on this project, I cloned an old apple page that displayed a navbar with a beautiful three toned background color. I was able to achieve this look by using a css property (gradient), precisely a linear gradient to give three similar colors (with slight differences when put side by side) with a 50% value: This means one color starts and stops when it reaches 50% of the element vertically and the other color continues to give that element a nice three toned look.
+
 
 ## Built With
 

@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -29,7 +29,7 @@ h6 {
 
 .nav-links {
   border: 1px solid #707070;
-  width: 70%;
+  width: 850px;
   margin: 0 auto;
   border-radius: 5px;
   font-size: 1.35rem;
@@ -68,9 +68,8 @@ h6 {
 .inner-grid-box input {
   border-radius: 40px;
   height: 25px;
-  background-color: #5e5e5e;
   width: 110px;
-  padding-left: 32px;
+  padding-left: 22px;
   transition: 0.3s ease-in-out;
   border-width: 0 2px 0 1px;
   border-top: 2px solid rgb(51, 51, 51);
@@ -80,17 +79,10 @@ h6 {
   margin-top: 8px;
   margin-left: 12px;
   margin-right: 12px;
-}
-
-.search-btn {
-  float: left;
-  width: 40px;
-  height: 20px;
-  border-radius: 50%;
-  position: absolute;
-  right: 21%;
-  top: 11.5%;
-  color: #fff;
+  background-image: url(images/search-icon.png);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-color: #747d8c;
 }
 
 .banner-text {
@@ -125,6 +117,7 @@ h6 {
 
 .flexbox {
   display: flex;
+  justify-content: space-between;
 }
 
 .flexbox img {
@@ -135,6 +128,7 @@ h6 {
   width: 100%;
   padding: 25px;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .footer__store,
@@ -195,4 +189,12 @@ h6 {
 .banner-text a:hover,
 .footer__list ul li a:hover {
   text-decoration: underline;
+}
+.inner-grid-box input:focus {
+  border: 1px solid#fff;
+  background-color: #fff;
+  background-image: url(images/search_focus.png);
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: 5px;
 }
