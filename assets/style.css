@@ -24,6 +24,7 @@ h6 {
 .banner {
   background: url(images/banner.jpg) 100% 100% no-repeat;
   height: 550px;
+  width: 100%;
   padding-top: 58px;
 }
 
@@ -190,6 +191,7 @@ h6 {
 .footer__list ul li a:hover {
   text-decoration: underline;
 }
+
 .inner-grid-box input:focus {
   border: 1px solid#fff;
   background-color: #fff;
